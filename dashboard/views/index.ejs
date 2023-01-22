@@ -1,0 +1,108 @@
+<%- include('header'); -%>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Meta Tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">        
+        <link rel="stylesheet" href="/index.css">
+        <title><%= bot.name %></title>    
+    </head>
+    <body>
+        <!--HEADER-->
+        
+        <!--MAIN BODY-->
+      <section style="margin-bottom: 0;">
+        <div class="d-flex justify-content-center head">
+            <h1 style="font-weight: 900;">
+                <img src="<%= botClient.user.displayAvatarURL({size: 4096}) %>" style="width: 4%;margin-top: -0.5%;"> <span style="font-size: 40px;"><span style="color:#5663f7;"><%= botClient.user.username %></span> | Ultimate Music Experience</span>
+              </h1>
+        </div>
+        <div class="d-flex justify-content-center subtext">
+            <p style="font-style: italic;font-size: 30px;">El mejor bot de música con la mejor y más alta calidad que hayas usado!</p>
+        </div>
+      </section>
+      
+      <section  style="margin-top: -15%;">
+
+        <div class="container">
+          <div class="row align-items-center mt-5">
+            <div class="col-md-5 col-lg-6 order-md-1 order-0"><img class="w-100" src="https://media.discordapp.net/attachments/1064700931150725201/1066096463932817408/image.png?width=500&height=468" alt="" /></div>
+            <div class="col-md-7 col-lg-6 pe-lg-4 pe-xl-7">
+              <div class="d-flex align-items-start"><img class="me-4" src="https://cdn.discordapp.com/emojis/850924066517155871.png?v=1" alt="" width="30" />
+                <div class="flex-1">
+                  <h5>Todos los comandos necesarios para su servidor</h5>
+                  <p class="text-muted mb-4">¿Estás harto de tener un Music Bot con miles de Comandos? ¡Jup Music tiene todos los comandos necesarios en un solo bot!
+                    <br> Aunque no ven "mucho", puede usar nuestras estructuras de Comando para agregar uno de los <b><%= Object.keys(BotFilters).length %> Filters!</b></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row align-items-center mt-5">
+              <div class="col-md-5 col-lg-6 order-md-0 order-1"><img class="w-100" src="https://media.discordapp.net/attachments/1064700931150725201/1066097156148170882/image.png" alt="" /></div>
+              <div class="col-md-7 col-lg-6 pe-lg-4 pe-xl-7">
+                <div class="d-flex align-items-start"><img class="me-4" src="https://cdn.discordapp.com/emojis/850924929444610048.png?v=1" alt="" width="30" />
+                  <div class="flex-1">
+                    <h5>Ultimate Music Experiences significa, <%= Object.keys(BotFilters).length %> Filters para ajustar su audio!</h5>
+                    <p class="text-muted mb-4">¡Estamos utilizando FFMPEG para brindarle la mejor calidad de audio posible! De hecho, los generamos instantáneamente y no tenemos ningún retraso.!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+
+          <div class="container">
+            <div class="row align-items-center mt-5">
+              <div class="col-md-5 col-lg-6 order-md-1 order-0"><img class="w-100" src="https://media.discordapp.net/attachments/1064700931150725201/1066097156148170882/image.png" alt="" /></div>
+              <div class="col-md-7 col-lg-6 pe-lg-4 pe-xl-7">
+                <div class="d-flex align-items-start"><img class="me-4" src="https://cdn.discordapp.com/emojis/850831345051762719.png?v=1" alt="" width="30" />
+                  <div class="flex-1">
+                    <h5>Spotify, Soundcloud, Youtube y más de 1100 enlaces compatibles!</h5>
+                    <p class="text-muted mb-4">Apoyamos todo lo que escuchas!
+                        INCLUYE LISTAS DE REPRODUCCIÓN Y <b>20 PREDEFINIDAS, optimizadas, PLAYLISTS! (mix)</b></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+
+            <div class="container">
+              <div class="row align-items-center mt-5">
+                <div class="col-md-5 col-lg-6 order-md-0 order-1"><img class="w-100" src="https://media.discordapp.net/attachments/1064700931150725201/1066096463932817408/image.png?width=500&height=468" alt="" /></div>
+                <div class="col-md-7 col-lg-6 pe-lg-4 pe-xl-7">
+                  <div class="d-flex align-items-start"><img class="me-4" src="https://cdn.discordapp.com/emojis/853006694312574977.png?v=1" alt="" width="30" />
+                    <div class="flex-1">
+                      <h5>Interfaz clara, con registros y botones instantáneos!</h5>
+                      <p class="text-muted mb-4">Para que puedas obtener todo lo que quieras al instante del Bot, y ver todo lo que pasó.!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>  
+    
+    </section>
+      <!-- FOOTER-->
+      <section>
+        <div class="card-footer" style="margin-top:15%;text-align: center;color: #5663f7;">
+          <hr style="width: 75%;background-color: #FFFFFF!important;color: #FFFFFF!important;border: 5px solid #FFFFFF!important;border-radius:25px;margin-left: 12%;">
+          <h4 style="margin-top:5%;">
+            <img src="<%= botClient.user.displayAvatarURL({size: 4096}) %>" style="width: 4%;margin-top: -0.5%;"> <span style="font-size: 40px;"><%= botClient.user.username %> | Ultimate Music Experience</span>
+          </h4>
+          <h5 style="text-align: center;">
+            <a href="https://github.com/" target="_blank" style="font-size: 12px; color: #888a9b!important;text-decoration: none;">&copy; Copyright Jup| All rights served.</a><br><br>
+            <a href="https://github.com/" target="_blank" style="font-size: 20px; color: #5663f7!important;text-decoration: none;">Developed by <code>Tolen</code> | [Github]</a>
+          </h5>
+        </div>
+      </section>
+
+       <!--JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </body>
+</html>
