@@ -1,5 +1,5 @@
 {
-    "ownerIDS": ["491158509803536384"],
+    "ownerIDS": ["691745316432773172"],
     "default_cooldown_in_sec" : 1.5,
     "antiCrash": true,
     "ping_message": true,
@@ -7,23 +7,23 @@
     "somethingwentwrong_cmd": true,
 
     "messages": {
-        "ping_message": "To see all Commands type: `%{prefix}%help`",
-        "cooldown": "❌ Please wait %{timeleft}% more Second(s) before reusing the `%{commandname}%` command.",
+        "ping_message": "Para ver todo tipo de Comandos: `%{prefix}%help`",
+        "cooldown": "❌ Espere %{timeleft}% más segundo(s) antes de utilizar el comando `%{commandname}%`.",
         "notallowed_to_exec_cmd": {
-            "title": "❌ You are not allowed to run this command!",
+            "title": "❌ No tienes permiso para ejecutar este comando.!",
             "description": {
-                "memberpermissions": "You need these Permissions:\n> %{commandmemberpermissions}%",
-                "alloweduserids": "You need to be one of the Following Users:\n> %{commandalloweduserids}%",
-                "requiredroles": "You need to have one of the Following Roles:\n> %{commandrequiredroles}%",
-                "default": "Please make sure, to get the needed Permissions!"
+                "memberpermissions": "Necesita estos permisos:\n> %{commandmemberpermissions}%",
+                "alloweduserids": "Debes ser uno de los siguientes usuarios:\n> %{commandalloweduserids}%",
+                "requiredroles": "Necesita tener uno de los siguientes roles:\n> %{commandrequiredroles}%",
+                "default": "Asegúrese de obtener los permisos necesarios!"
             }
         },
         "somethingwentwrong_cmd": {
-            "title": "❌ Something went wrong while, running the: `%{commandname}%` command",
+            "title": "❌ Algo salió mal al ejecutar el comando: `%{commandname}%`",
             "description": "```%{errormessage}%```"
         },
-        "unknown_cmd": "❌ Unkown command, try: **`%{prefix}%help`**",
-        "error_occur": "❌ An error occurred",
+        "unknown_cmd": "❌ Unkown command, intente: **`%{prefix}%help`**",
+        "error_occur": "❌ Ocurrió un error",
         "error_occur_desc": "````%{errorstack}%````"
     },
     "timeout": {

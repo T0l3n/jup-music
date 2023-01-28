@@ -1,11 +1,10 @@
 {
-  "token": "MTA2NTAwOTczOTc1MjI5MjM3Mw.GvHHuN.4kbO5q7-rdzwFp5gDAtAX_c1l4XFZTjkbzfKUs",
-  "prefix": "k!",
+  "prefix": ".",
   "youtubeCookie": "VISITOR_INFO1_LIVE=Uf0sEQYK8RU; LOGIN_INFO=AFmmF2swRAIgZErsXzGLDtdk5KONFYbHLzLajXtZRWPPrORhdqW4mTcCICzftpwiz3_gxalkdb1fq4VbG44xu8UzGdGkrKLCYh3I:QUQ3MjNmeXVvajdOOFJhem9ENGM3cm1NcWJsUWdReVNjd2FsbFhxNzRLeE0weGF3M21Zam5zTTRqcE5DWXBCeTlia1dCUVlSaDNURDVPeTZfTzdYbTBTQUktUEw3OXV2TnBzc0RPUWlGQVE2akNuTEZXRG9VU2FLWlV0LWFtM0RCTmpqTENoWUNXeGtBcU9BZDF6dW1rU1NuWnZ3WWRUNm5B; PREF=f6=480&tz=America.Guayaquil; DEVICE_INFO=ChxOekU0TmpjMU1UY3hNems1TlRJek5qSTFOQT09EJvx8Z0GGJvx8Z0G; HSID=ApZxfphmK73d9ZYhx; SSID=Afznrl9AA6Fal7eqH; APISID=PkuYqZ4GK50hhho7/APS4lHQ99JI49aooY; SAPISID=WavWSfyfPXOnsZBG/A4yfM4heTuYCam8yf; __Secure-1PAPISID=WavWSfyfPXOnsZBG/A4yfM4heTuYCam8yf; __Secure-3PAPISID=WavWSfyfPXOnsZBG/A4yfM4heTuYCam8yf; SID=SwgXzUy3xDoNk-K_WKcNS3nHoMh_VHmVGFXEh1D_4RnZADkWYuygd6FExASIhlAlx64KMw.; __Secure-1PSID=SwgXzUy3xDoNk-K_WKcNS3nHoMh_VHmVGFXEh1D_4RnZADkWYI4jtAVJUBrGw3j5A3eRxQ.; __Secure-3PSID=SwgXzUy3xDoNk-K_WKcNS3nHoMh_VHmVGFXEh1D_4RnZADkWKGHBxkzVVY5QjepQufSv2w.; YSC=_Fso8jH6SXU; wide=1; SIDCC=AIKkIs3jRO0F7cozoFihfpdaDBtnOnkDBtr-bq07LIqk95MGP0RJlkmeCd4dYpoOY39v2FsOACs; __Secure-1PSIDCC=AIKkIs0bxIJz3_OUQ9wRpabzMtOzx7QD-Wl6BchhbFLFAFMS5Rdzh31TEaSfC0QQhCc9jbobzDc; __Secure-3PSIDCC=AIKkIs2XH5aVigxizuJm8bteRPqscltzoI3laLjJFtov0ZuW-ADRCTJlETo-GCtEomczoWYPIQ3d",
   "spotify_api": {
         "enabled": false, "_COMMENT_": "Set it to false, if you want to scrape, when on true you can get spotify playlists with 100+ Tracks",
-        "clientSecret": "",
-        "clientId": ""
+        "clientSecret": "fb6b8d81cc634379a40bcd9ba850ffd7",
+        "clientId": "29482f5127c443e1a25186343f5e73e6fb6b8d81cc634379a40bcd9ba850ffd7"
   },
   "loadSlashsGlobal": true, "_COMMENT_": "Set it to true, when your Slash Commands are ready, false loads instant true loads slow but stable! (GLOBAL/GUILD COMMANDS, DISCORD DOCS!)"
 }
